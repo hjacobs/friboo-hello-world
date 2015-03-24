@@ -1,0 +1,33 @@
+swagger: '2.0'
+info:
+  title: Hello World API
+  description: Example app
+  version: "1.0"
+schemes:
+  - https
+basePath: /
+produces:
+  - application/json
+paths:
+  /:
+    get:
+      summary: Home page
+      operationId: "helloworld.api/index"
+      responses:
+        200:
+          description: Index
+
+  /hello/{who}:
+    get:
+      summary: Say hello
+      operationId: "helloworld.api/say-hello"
+      parameters:
+        - name: who
+          in: path
+          type: string
+          pattern: "^[a-z][a-z0-9-]+$"
+          required: true
+      responses:
+        200:
+          description: Say hello
+
