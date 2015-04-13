@@ -1,5 +1,3 @@
-Description: "Friboo Hello World version {{Arguments.ImageVersion}}"
-
 # basic information for generating and executing this definition
 SenzaInfo:
   StackName: friboo-hello-world
