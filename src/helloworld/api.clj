@@ -11,7 +11,7 @@
   {:http-port 8080})
 
 (defn index [request _ _]
-  (-> "Index"
+  (-> "Hello World!"
       (response)
       (content-type-json)))
 
