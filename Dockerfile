@@ -1,4 +1,4 @@
-FROM zalando/openjdk:8u40-b09-4
+FROM zalando/openjdk:8u45-b14-1
 
 MAINTAINER Henning Jacobs <henning.jacobs@zalando.de>
 
