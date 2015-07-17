@@ -3,8 +3,6 @@ info:
   title: Hello World API
   description: Example app
   version: "1.0"
-schemes:
-  - https
 basePath: /
 produces:
   - application/json

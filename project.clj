@@ -7,8 +7,8 @@
 
   :min-lein-version "2.0.0"
 
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.zalando.stups/friboo "0.23.0"]]
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [org.zalando.stups/friboo "0.26.0"]]
 
   :main ^:skip-aot helloworld.core
   :uberjar-name "hello-world.jar"
