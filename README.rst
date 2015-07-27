@@ -6,7 +6,7 @@ This project is a very simple example of using the `friboo`_ Clojure library to 
 
 .. code-block:: bash
 
-    $ lein uberjar
+    $ lein do uberjar, scm-source
     $ docker build -t friboo-hello-world .
     $ docker run -it -p 8080:8080 friboo-hello-world
 
